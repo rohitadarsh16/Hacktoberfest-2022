@@ -35,7 +35,7 @@ keep in mind that repo has hacktoberfest topic..
 
 <a href="https://github.com/rohitadarsh16/Hacktoberfest-2022/pulls"><img src="https://img.shields.io/github/issues-pr/rohitadarsh16/Hacktoberfest-2022" alt="Pull Requests Badge"/></a>
 <a href="https://github.com/rohitadarsh16/Hacktoberfest-2022/graphs/contributors"><img alt="GitHub contributors" src="https://img.shields.io/github/contributors/rohitadarsh16/Hacktoberfest-2022?color=2b9348"></a>
-<a href="https://github.com/rohitadarsh16/Hacktoberfest-2022/blob/master/LICENSE"><img src="https://img.shields.io/github/license/rohitadarsh16/Hacktoberfest-2022?color=2b9348" alt="License Badge"/></a>
+<a href="https://github.com/rohitadarsh16/Hacktoberfest-2022/blob/main/LICENSE"><img src="https://img.shields.io/github/license/rohitadarsh16/Hacktoberfest-2022" alt="License Badge"/></a>
 
 </div>
 
