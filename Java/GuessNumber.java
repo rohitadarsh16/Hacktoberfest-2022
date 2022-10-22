@@ -6,7 +6,7 @@ public class GuessNumber
 
 
         public static void main(String[] args) {
-        System.out.printf("***Welcome  Guess Number game ****\n");
+        System.out.printf("Welcome  Guess Number game\n");
 
         Random ra = new Random();
         int gen = ra.nextInt(10);
