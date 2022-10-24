@@ -4,7 +4,7 @@ using namespace std;
 int main() {
   int n;
 
-  cout << "Enter an integer number: ";
+  cout << "Enter an integer number to check odd or even: ";
   cin >> n;
 
   if ( n % 2 == 0)
