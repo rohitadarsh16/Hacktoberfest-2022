@@ -1,13 +1,12 @@
 import requests
 import xml.etree.ElementTree as ET
 
+print("News  genrator  by API ")
 # url of news rss feed
 RSS_FEED_URL = "http://www.hindustantimes.com/rss/topnews/rssfeed.xml"	
 
 def loadRSS():
-	'''
-	utility function to load RSS feed
-	'''
+
 	# create HTTP request response object
 	resp = requests.get(RSS_FEED_URL)
 
@@ -15,9 +14,7 @@ def loadRSS():
 	return resp.content
 
 def parseXML(rss):
-	'''
-	utility function to parse XML format rss feed
-	'''
+	
 	# create element tree root object
 	root = ET.fromstring(rss)
 
@@ -42,9 +39,7 @@ def parseXML(rss):
 	return newsitems
 
 def topStories():
-	'''
-	main function to generate and return news items
-	'''
+
 	# load rss feed
 	rss = loadRSS()
 
